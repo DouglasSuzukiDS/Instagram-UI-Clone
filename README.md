@@ -1,3 +1,7 @@
+# Instagram UI Clone
+
+Project to practice my knowledge in frontend
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
