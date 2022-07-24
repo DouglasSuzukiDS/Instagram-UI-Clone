@@ -4,7 +4,7 @@ import Messenger from '../../assets/Icons/Messenger.svg'
 import NewPosts from '../../assets/Icons/NewPosts.svg'
 import FindPeople from '../../assets/Icons/FindPeople.svg'
 import Like from '../../assets/Icons/Like.svg'
-import User from '../../assets/Images/Law-JR.png'
+import User from '../../assets/Images/Luffy.png'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
                </div>
 
                <div className='mr-1'>
-                  <input type="text" placeholder='Search' className='border'/>
+                  <input type="text" placeholder='Pesquisar' className='border'/>
                </div>
 
                <div className=''>
