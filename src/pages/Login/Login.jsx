@@ -64,7 +64,7 @@ export default function Login() {
             </section>
 
             <section className="containerRegister border flex mt-2 py-3">
-               <p>Não tem uma conta? <Link to='/register'>Cadastre-se</Link></p>
+               <p>Não tem uma conta? <a href='/'>Cadastre-se</a></p>
             </section>
 
             <section className='containerDownload flex column mt-3'>

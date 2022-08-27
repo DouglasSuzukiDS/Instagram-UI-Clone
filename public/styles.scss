@@ -8,8 +8,11 @@
 @import '../src/components/Header/Header';
 @import '../src/components/Footer/Footer';
 @import '../src/components/UserConversation/UserConversation';
-@import '../src/pages/Register/Register';
+@import '../src/components/UserProfile/UserProfile';
+@import '../src//components/FollowButton/FollowButton';
+
 @import '../src/pages/Login/Login';
+@import '../src/pages/Register/Register';
 @import '../src/pages/Home/Home';
 @import '../src/pages/Direct/Direct';
 @import '../src/pages/Error/Error';

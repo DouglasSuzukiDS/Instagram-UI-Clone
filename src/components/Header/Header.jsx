@@ -8,9 +8,7 @@ export default function Header(props) {
          <header className="flex container">
             <main className='flex sbt headerContainer'>
                <div className='mr-1'>
-                  <Link to='/'>
-                     <img src={Logo} alt="Instagram Logo" />
-                  </Link>
+                  <img src={Logo} alt="Instagram Logo" />
                </div>
 
                <div className='mr-1'>

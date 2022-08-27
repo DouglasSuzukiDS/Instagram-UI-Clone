@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 export default function Error() {
    return(
       <>
-         <Header />
          <section className="errorContainer">
             <div className="flex column sbt">
                <div className="flex column px-5">

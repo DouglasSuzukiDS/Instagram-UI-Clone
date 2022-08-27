@@ -48,6 +48,12 @@ button, input {
   outline: none;
 }
 
+.action {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .display {
   font-weight: bold;
   font-size: 70px;
@@ -828,6 +834,111 @@ header.container {
   font-size: 15px;
 }
 
+.userImage {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.userName {
+  height: 100%;
+  width: 100%;
+}
+.userName p {
+  color: var(--border-color);
+}
+
+.suggestions :nth-child(1) {
+  color: var(--border-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+.suggestions :nth-child(2) {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.containerLogin {
+  width: 350px;
+  margin: 44px 40px 0 40px;
+}
+
+.logoLogin {
+  width: 175px;
+  height: 51px;
+}
+
+.formLogin input {
+  width: 270px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+div > .fSubmit {
+  width: 100%;
+}
+
+.fSubmit {
+  font-size: 18px;
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+}
+
+.fSubmitDisable {
+  background-color: var(--btnDisable);
+}
+
+.fSubmitActive {
+  background-color: var(--btn);
+}
+.fSubmitActive:hover {
+  cursor: pointer;
+}
+
+.hrows {
+  width: 100%;
+  padding: 0 40px;
+  color: var(--gray);
+}
+
+.hrow {
+  height: 1px;
+  width: 104px;
+  background-color: var(--gray);
+}
+
+.fb button {
+  outline: none;
+  color: var(--fb);
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.fb button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.fb a {
+  text-decoration: none;
+  color: var(--fb);
+  font-size: 12px;
+}
+
+.containerRegister {
+  width: 350px;
+}
+
+.containerRegister a {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: bold;
+}
+
 .containerRegister {
   width: 350px;
   margin: 44px 40px 0 40px;
@@ -969,87 +1080,6 @@ div > .fSubmit {
 .containerRegister {
   width: 350px;
   margin-top: 12px;
-}
-
-.containerRegister a {
-  text-decoration: none;
-  color: var(--blue);
-  font-weight: bold;
-}
-
-.containerLogin {
-  width: 350px;
-  margin: 44px 40px 0 40px;
-}
-
-.logoLogin {
-  width: 175px;
-  height: 51px;
-}
-
-.formLogin input {
-  width: 270px;
-  padding: 8px;
-  border-radius: 4px;
-  border: none;
-}
-
-div > .fSubmit {
-  width: 100%;
-}
-
-.fSubmit {
-  font-size: 18px;
-  color: var(--white);
-  border: none;
-  border-radius: 4px;
-}
-
-.fSubmitDisable {
-  background-color: var(--btnDisable);
-}
-
-.fSubmitActive {
-  background-color: var(--btn);
-}
-.fSubmitActive:hover {
-  cursor: pointer;
-}
-
-.hrows {
-  width: 100%;
-  padding: 0 40px;
-  color: var(--gray);
-}
-
-.hrow {
-  height: 1px;
-  width: 104px;
-  background-color: var(--gray);
-}
-
-.fb button {
-  outline: none;
-  color: var(--fb);
-  background-color: transparent;
-  border: none;
-  font-weight: bold;
-}
-
-.fb button img {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-.fb a {
-  text-decoration: none;
-  color: var(--fb);
-  font-size: 12px;
-}
-
-.containerRegister {
-  width: 350px;
 }
 
 .containerRegister a {
