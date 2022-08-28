@@ -1,16 +1,26 @@
 $user-news: linear-gradient( rgba(222,0,70,1), rgba(247,164,75,1));
+
 .containerHome {
-   width: 100vw;
-   height: calc(100vh - 106px); // 58px (Menu) + 48px (Margin Y)
-   padding: 0 18%;
+   width: 100%;
+   // height: calc(100vh - 106px); // 58px (Menu) + 48px (Margin Y)
+   padding: 0 15%;
 }
 
-.activitiesFriendsHome div {
+.activitiesFriendsHome {
+   width: calc(100% - 280px);
+}
+
+.activitiesFriendsHome {
+   // border: 2px solid var(--border-color);
+   border-radius: 8px;
+}
+
+.statusFriendsHome {
    border: 2px solid var(--border-color);
    border-radius: 8px;
 }
 
-.statusFriendsHome .userNews {
+/*.statusFriendsHome .userNews {
    width: 56px;
    height: 56px;
    padding: 5px;
@@ -19,5 +29,25 @@ $user-news: linear-gradient( rgba(222,0,70,1), rgba(247,164,75,1));
       width: 100%;
       height: 100%;
    }
+}*/
+
+.activityFriendHome {
+   width: 100%;
+   // height: 728px;
 }
+
+.userSuggestions {
+   max-width: 280px;
+}
+
+
+@media (max-width: 900px) {
+   .activitiesFriendsHome {
+      width: 100%;
+   }
+   .userSuggestions {
+      display: none;
+   }
+}
+
 

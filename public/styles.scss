@@ -5,11 +5,17 @@
 @import '../src/scss/spacing';
 @import '../src/scss/button';
 
+@import '../src/components/Alert/Alert';
 @import '../src/components/Header/Header';
 @import '../src/components/Footer/Footer';
+@import '../src/components/Footer2/Footer2';
+@import '../src/components/Footer3/Footer3';
 @import '../src/components/UserConversation/UserConversation';
 @import '../src/components/UserProfile/UserProfile';
-@import '../src//components/FollowButton/FollowButton';
+@import '../src/components/SuggestionUser/SuggestionUser';
+@import '../src/components/userActivity/userActivity';
+@import '../src/components/userStories/userStories';
+@import '../src/components/FollowButton/FollowButton';
 
 @import '../src/pages/Login/Login';
 @import '../src/pages/Register/Register';

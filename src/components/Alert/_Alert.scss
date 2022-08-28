@@ -1,0 +1,12 @@
+.alertMsg h3 {
+   font-family: 'JetBrains Mono';
+   font-style: italic;
+}
+
+.alertMsg h4:nth-child(1) {
+   color: #EB4956;
+}
+
+.alertMsg h3:nth-child(2) {
+   color: var(--blue);
+}

@@ -24,7 +24,7 @@ export default function Register() {
 
    return (
       <>
-         <div className=" column flex">
+         <div className="mt-4 column flex">
             <section className="containerRegister border flex column">
 
                <div className="logoInsta flex column my-4">

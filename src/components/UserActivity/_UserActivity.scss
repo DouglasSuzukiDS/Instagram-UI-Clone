@@ -1,0 +1,69 @@
+.userActivity {
+   border: 2px solid var(--border-color);
+   border-radius: 8px;
+}
+
+.userActivityInfo {
+   // border: 2px solid var(--border-color);
+   border-radius: 8px;
+
+   img { 
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+   }
+
+   p {
+      font-size: 18px;
+      font-weight: 600;
+   }
+}
+
+.userActivityPost {
+   img {
+      width: 100%;
+      // height: 350px;
+   }
+}
+
+.userActivityAction {
+   img {
+      width: 22px;
+      height: 22px;
+      cursor: pointer;
+   }
+}
+
+.userActivityInfos {
+   span {
+      color: var(--gray);
+      cursor: pointer;
+      
+   }
+
+   .userActivityDescData {
+      font-size: 12px;
+   }
+}
+
+.userActivityComments {
+   border-top: 1px solid var(--border-color); 
+   // border-bottom: 1px solid var(--border-color); 
+   width: 100%;
+}
+
+.userActivityComment {
+   img {
+      cursor: pointer;
+   }
+
+   input {
+      border: none;
+      width: 100%;
+      font-size: 14px;
+   }
+
+   input::placeholder {
+      color: var(--black);
+   }
+}
